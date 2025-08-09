@@ -1,0 +1,20 @@
+objects:
+  - name: contacts
+    endpoint: "/crm/v3/objects/contacts"
+    properties:
+      - email
+      - firstname
+      - lastname
+      - hs_object_id
+      - createdate
+      - lastmodifieddate
+  - name: deals
+    endpoint: "/crm/v3/objects/deals"
+    properties:
+      - dealname
+      - amount
+      - dealstage
+      - pipeline
+      - hs_object_id
+      - createdate
+      - hs_lastmodifieddate
